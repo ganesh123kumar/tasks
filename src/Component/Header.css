@@ -1,0 +1,10 @@
+.container{
+    height: 3rem;
+    background-color: #516e87;
+    color: white;
+    
+}
+.container_title{
+    padding: 10px;
+    font-size: x-large;
+}

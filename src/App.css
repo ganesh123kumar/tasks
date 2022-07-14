@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500&display=swap');
+.app_container{
+  margin-top: 10px;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}

@@ -1,0 +1,43 @@
+.home_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 90.7vh;
+}
+.title{
+    color: white;
+}
+.button_style{
+    margin-left: 5px;
+}
+.first_container, .second_container{
+    min-height: 5rem;
+    min-width: 5rem;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.button_25{
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .home_container{
+        flex-direction: column;
+    }
+    .first_container{
+        margin-bottom: 10px;
+    }
+  }
